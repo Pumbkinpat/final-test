@@ -1,0 +1,82 @@
+@font-face {
+  font-family: myfont;
+  src: url(Chunkfive.ttf);
+}
+body {
+  font-family: Chunkfive;
+  background-color: #A67B5B ;
+  background-image: linear-gradient(to left, transparent 50%, #ddd 50%);
+}
+
+/* begin sign up page  */
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 150px;
+}
+
+.btn-seller {
+  text-transform: uppercase;
+  width: 250px;
+  height: 75px;
+  margin: 130px 130px 130px 300px;
+  overflow: hidden;
+  position: relative;
+  outline: 0px dashed #ddd;
+  color: #ddd;
+  font-weight: 700;
+}
+
+.btn-seller:hover {
+  text-transform: uppercase;
+  width: 250px;
+  height: 75px;
+  margin: 130px 130px 130px 300px;
+  overflow: hidden;
+  position: relative;
+  outline: 0px dashed #ddd;
+  color: #A67B5B;
+  font-weight: 700;
+}
+
+.btn-company {
+  text-transform: uppercase;
+  width: 250px;
+  height: 75px;
+  margin: 130px 300px 130px 130px;
+  overflow: hidden;
+  position: relative;
+  outline: 0px dashed #A67B5B;
+  color:#A67B5B;
+  font-weight: 700;
+}
+
+.btn-company:hover {
+  text-transform: uppercase;
+  width: 250px;
+  height: 75px;
+  margin: 130px 300px 130px 130px;
+  overflow: hidden;
+  position: relative;
+  outline: 0px dashed #A67B5B;
+  color:#ddd;
+  font-weight: 700;
+  background-color: #A67B5B;
+}
+
+.purpose{
+  text-align: center;
+}
+
+.seller{
+  color: #ddd;
+  margin-left: 50px;
+}
+
+.orignaztion{
+  color: #A67B5B;
+  margin-right: 45px;
+}
+
+/* end sign up page  */

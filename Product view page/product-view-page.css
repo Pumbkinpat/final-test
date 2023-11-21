@@ -1,0 +1,99 @@
+@font-face {
+    font-family: myfont;
+    src: url(Chunkfive.ttf);
+}
+
+body {
+    font-family: Chunkfive, Arial, sans-serif;
+    background-color: #ddd;
+}
+
+.custom-navbar {
+    position: relative;
+}
+
+.custom-navbar a {
+    float: left;
+    display: block;
+    color: #cc9966;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.custom-navbar a:hover {
+    color: #ea9138;
+    text-decoration: none;
+    border-bottom: 3.5px solid #dd760e;
+}
+
+.active {
+    color: white;
+}
+
+.Signup-Login {
+    float: right;
+    margin-right: 20px;
+}
+.product-container {
+    display: flex;
+    flex-direction: column; /* Change the flex direction to make it stack vertically */
+    align-items: center; /* Center items horizontally */
+    transform: translate(-150px,125px);
+    margin-left: 50px;
+}
+
+.product-title {
+   transform: translateX(-300px);
+}
+
+.product-image {
+    transform: translateX(-300px);
+}
+.seller-container{
+    transform: translate(300px,-80px);
+}
+.contact{
+    text-align: center;
+    padding: 10px;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.product-actions {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.add-to-cart {
+    background-color: #cc9966;
+    color: white;
+    margin-right: 10px;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.buy-now {
+    background-color: #ddd;
+    color: black;
+    border-radius: 0;
+    padding: 10px;
+}
+.seller-container .card {
+    border: none;
+}
+#color-for-nav{
+    /*background-color: #5c5a5a;*/
+    position: relative;
+}
+
+#color-for-nav a {
+    float: left;
+    display: block;
+    color: #cc9966;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

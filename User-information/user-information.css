@@ -1,0 +1,59 @@
+@font-face {
+    font-family: myfont;
+    src: url(Chunkfive.ttf);
+  }
+  body {
+    font-family: Chunkfive;
+    font-family: Arial, sans-serif;
+    background-color: #ddd;
+}
+/*
+.organization-info{
+    display: flex;
+    transform: translateY(50px);
+}
+*/
+.navbar {
+    /*background-color: #5c5a5a;*/
+    position: relative;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #cc9966;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #ea9138;
+    text-decoration: none;
+    border-bottom: 3.5px solid #dd760e;
+}
+
+.active {
+    /*background-color: #4CAF50;*/
+    color: white;
+}
+.Signup-Login {
+    float: right; /* Move the element to the right */
+    margin-right: 20px;
+}
+.container {
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Add any other custom styles as needed */

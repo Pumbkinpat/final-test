@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Chunkfive;
+    font-family: Arial, sans-serif;
+}
+
+.main{
+
+}
+/* begin navbar */
+@font-face {
+font-family: myfont;
+src: url(Chunkfive.ttf);
+}
+
+.main header {
+    height: 200px;
+}
+
+.main header #header-nav {
+    height: 30%;
+    margin: 0 !important;
+
+}
+
+header .navbar#color-for-nav{
+    /* background-color: #5c5a5a; */
+    position: relative;
+}
+
+header #color-for-nav li {
+    /* height: 60px !important; */
+    margin-bottom: 0px;
+}
+
+header #color-for-nav  a,header #color-for-nav a.dropdown-toggle {
+    float: left;
+    display: block;
+    color: #cc9966;
+    text-align: center !important;
+    line-height: 57px;
+    /* padding: auto 16px; */
+    /* min-height: 59px; */
+    text-decoration: none;
+    padding: 0px 16px
+}
+
+header #color-for-nav .navbar-nav > li:hover > a,
+header #color-for-nav .navbar-nav .dropdown-menu li:hover a {
+    color: #ea9138;
+    text-decoration: none;
+    border-bottom: 3px solid #dd760e;
+} 
+
+header #color-for-nav .navbar-nav .dropdown-menu a {
+    width: 100%;
+}
+
+header #color-for-nav .dropdown-menu {
+    padding: 0;
+}
+
+/* end navbar */
+
+header #breakcrumbs {
+    height: 70%;
+    background-color: yellow;
+    position: relative;
+}
+
+header #breakcrumbs h1 {
+    color: #ddd;
+    margin: 0;
+    line-height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* begin custom product page */
+main section {
+    margin-left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main section .product {
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 15px;
+    min-height: 150px;
+    background-color: #fff;
+    width: 200px;
+    text-align: center;
+}
+
+main #categories {
+    position: fixed;
+    top: 200px;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    background-color: cornsilk;
+    
+}
+
+main #categories a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+main #categories .subnav {
+    display: none;
+}
+
+main #categories .button:hover .subnav {
+    display: block;
+}
+
+main #categories .subnav li {
+    list-style-type: none;
+}
+
+/* end custom product page */
