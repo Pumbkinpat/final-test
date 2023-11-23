@@ -1,40 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Chunkfive;
+    font-family: Arial, sans-serif;
+}
+
+.main{
+
+}
+/* begin navbar */
 @font-face {
     font-family: myfont;
     src: url(Chunkfive.ttf);
 }
 
-body {
-    font-family: Chunkfive, Arial, sans-serif;
-    background-color: #ddd;
+.main header {
+    height: 200px !important;
 }
 
-.custom-navbar {
+.main header #header-nav {
+    height: 30% !important;
+    margin: 0 !important;
+
+}
+
+header .navbar#color-for-nav{
+    /* background-color: #5c5a5a; */
     position: relative;
 }
 
-.custom-navbar a {
+header #color-for-nav li {
+    /* height: 60px !important; */
+    margin-bottom: 0px;
+}
+
+header #color-for-nav  a,header #color-for-nav a.dropdown-toggle {
     float: left;
     display: block;
     color: #cc9966;
-    text-align: center;
-    padding: 14px 16px;
+    text-align: center !important;
+    line-height: 57px;
+    /* padding: auto 16px; */
+    /* min-height: 59px; */
     text-decoration: none;
+    padding: 0px 16px
 }
 
-.custom-navbar a:hover {
+header #color-for-nav .navbar-nav > li:hover > a,
+header #color-for-nav .navbar-nav .dropdown-menu li:hover a {
     color: #ea9138;
     text-decoration: none;
-    border-bottom: 3.5px solid #dd760e;
+    border-bottom: 3px solid #dd760e;
+} 
+
+header #color-for-nav .navbar-nav .dropdown-menu a {
+    width: 100%;
 }
 
-.active {
-    color: white;
+header #color-for-nav .dropdown-menu {
+    padding: 0;
 }
 
-.Signup-Login {
-    float: right;
-    margin-right: 20px;
+/* end navbar */
+
+header #breakcrumbs {
+    height: 70%;
+    background-color: #cc9966;
+    position: relative;
 }
+
+header #breakcrumbs h1 {
+    color: #fff;
+    margin: 0;
+    line-height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* begin product view page */
+
 .product-container {
     display: flex;
     flex-direction: column; /* Change the flex direction to make it stack vertically */
@@ -97,3 +148,4 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
+/* order product view page */

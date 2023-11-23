@@ -85,7 +85,7 @@ header #breakcrumbs h1 {
 }
 
 
-/*begin order page*/
+/* begin order page*/
 main .container {
     margin-top: 50px;
 }
@@ -127,54 +127,3 @@ main #shippingAddress {
 }
 /*begin order page*/
 
-/* begin custom product page */
-main section {
-    margin-left: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-main section .product {
-    border: 1px solid #ddd;
-    border-radius: 30px;
-    margin: 10px;
-    padding: 15px;
-    min-height: 150px;
-    background-color: #fff;
-    width: 200px;
-    text-align: center;
-}
-
-main #categories {
-    position: fixed;
-    top: 200px;
-    left: 0;
-    width: 150px;
-    height: 100%;
-    background-color: cornsilk;
-    
-}
-
-main #categories a {
-    padding: 15px 20px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-main #categories .subnav {
-    display: none;
-}
-
-main #categories .button:hover .subnav {
-    display: block;
-}
-
-main #categories .subnav li {
-    list-style-type: none;
-}
-
-/* end custom product page */
