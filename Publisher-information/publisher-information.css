@@ -85,6 +85,45 @@ header #breakcrumbs h1 {
 }
 
 /* begin Publisher Information */
+main .publisher-information .container {
+    width: 800px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
+main .publisher-information .container h2 {
+    width: 100%;
+    text-align: center;
+}
+
+main .publisher-information .container label{
+    font-weight: bold;
+}
+
+main .publisher-information .container button{
+    background-color: rgb(150, 209, 62);
+    color: #fff;
+    padding: 4px;
+    position: relative;
+    left: 600px;
+    border: solid 0.3px #000;
+}
+
+main .dashboard {
+    width: 800px;
+    min-height: 200px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+main .history-transactions {
+    text-align: center;
+    width: 800px;
+    min-height: 200px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
 /* End Publisher Information */
