@@ -70,12 +70,12 @@ header #color-for-nav .dropdown-menu {
 
 header #breakcrumbs {
     height: 70%;
-    background-color: yellow;
+    background-color: #cc9966;
     position: relative;
 }
 
 header #breakcrumbs h1 {
-    color: #ddd;
+    color: #fff;
     margin: 0;
     line-height: 70%;
     position: absolute;
@@ -86,7 +86,7 @@ header #breakcrumbs h1 {
 
 
 
-/* begin custom product page */
+/* begin product page */
 main section {
     margin-left: 150px;
     display: flex;
@@ -104,7 +104,9 @@ main section .product {
     width: 200px;
     text-align: center;
 }
+/* end product page */
 
+/* begin categories */
 main #categories {
     position: fixed;
     top: 200px;
@@ -128,7 +130,7 @@ main #categories .subnav {
     display: none;
 }
 
-main #categories .button:hover .subnav {
+main #categories .subnav:target  {
     display: block;
 }
 
@@ -136,4 +138,4 @@ main #categories .subnav li {
     list-style-type: none;
 }
 
-/* end custom product page */
+/* end categories */

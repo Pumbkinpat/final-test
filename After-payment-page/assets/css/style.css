@@ -70,12 +70,12 @@ header #color-for-nav .dropdown-menu {
 
 header #breakcrumbs {
     height: 70%;
-    background-color: yellow;
+    background-color: #cc9966;
     position: relative;
 }
 
 header #breakcrumbs h1 {
-    color: #ddd;
+    color: #fff;
     margin: 0;
     line-height: 70%;
     position: absolute;
