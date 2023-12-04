@@ -87,20 +87,34 @@ header #breakcrumbs h1 {
 
 /* begin user information page */
 
-.container {
+main .organization-info .container {
     padding: 20px;
     border-radius: 5px;
     margin-top: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.info-group {
+main .organization-info .container .row .info-group {
     margin-bottom: 15px;
 }
 
-label {
+main .organization-info .container .row label {
     font-weight: bold;
 }
+
+main .update-info {
+    width: 400px;
+    display: none;
+}
+
+main .update-info label {
+    display: block;
+}
+
+main .update-info input {
+    border: solid 2px black;
+}
+
 
 /* Add any other custom styles as needed */
 /* end user information page */
