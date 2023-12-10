@@ -14,7 +14,6 @@ body{
 
 }
 
-/* begin navbar */
 @font-face {
 font-family: myfont;
 src: url(Chunkfive.ttf);
@@ -31,6 +30,7 @@ src: url(Chunkfive.ttf);
     background-color: #fff;
 }
 
+/* begin navbar */
 .main header #header-nav {
     height: 60px;
     margin: 0 !important;
@@ -128,7 +128,7 @@ header .search-bar i{
 /* begin slideshow */
 
 #slideshow .mySlides1 {display: none}
-img {vertical-align: middle;}
+#slideshow .mySlides1 img {vertical-align: middle;} /*new changes*/
 
 #slideshow .slideshow-container {
   max-width: 1000px;
