@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Chunkfive;
+    font-family: Arial, sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(Chunkfive.ttf);
+}
+
+/* begin header */
+.main header {
+    height: 200px !important;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #fff;
+}
+
+/* begin navbar */
+.main header #header-nav {
+    height: 30% !important;
+    margin: 0 !important;
+
+}
+
+header .navbar#color-for-nav{
+    height: 60px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+header #color-for-nav li {
+    margin-bottom: 0px;
+    position: relative;
+}
+
+header #color-for-nav  a,header #color-for-nav a.dropdown-toggle {
+    float: left;
+    display: block;
+    color: #cc9966;
+    text-align: center !important;
+    line-height: 57px;
+    text-decoration: none;
+    padding: 0px 16px
+}
+
+header #color-for-nav .navbar-nav > li > a:hover,
+header #color-for-nav .navbar-nav li .dropdown-menu li > a:hover {
+    color: #ea9138;
+    text-decoration: none;
+    border-bottom: 3px solid #dd760e;
+} 
+
+header #color-for-nav .navbar-nav .dropdown-menu a {
+    width: 100%;
+}
+
+header #color-for-nav .dropdown-menu {
+    padding: 0;
+}
+
+/* end navbar */
+
+/* begin search bar */
+
+header .search-bar{
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+header .search-bar input{
+    float: right;
+    border: none;
+    text-align: left;
+    font-size: 17px;
+    height: 100%;
+    padding-left:8px ;
+    margin: 6px 0;
+}
+
+header .search-bar input:focus{
+    outline: none;
+}
+
+header .search-bar .search-btn{
+    float: left;
+    padding: 6px 10px;
+    border-radius: 10px;
+    height: 32px;
+}
+
+header .search-bar .search-btn:hover {
+    cursor: pointer;
+}
+
+header .search-bar i{
+    font-size: 20px;
+}
+
+/* end search bar */
+
+/* begin breakcrumbs */
+
+header #breakcrumbs {
+    height: 70%;
+    background-color: #cc9966;
+    position: relative;
+}
+
+header #breakcrumbs h1 {
+    color: #fff;
+    margin: 0;
+    line-height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* end breakcrumbs */
+/* end header */
+
+.main main,.main main.container {
+    margin-top: 210px;
+    flex: 1;
+}
+
+/* begin product page */
+main section {
+    margin: 200px 0 0 200px;
+}
+main section .product-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main section .product {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 15px;
+    min-height: 290px;
+    background-color: #fff;
+    width: 280px;
+    text-align: center;
+    position: relative;
+}
+main section .product img {
+    width: 200px;
+    height: 200px;
+}
+main section .product .product-info {
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    bottom: 10px;
+}
+/* end product page */
+
+/* begin categories */
+main #Categories {
+    position: fixed;
+    top: 200px;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: cornsilk;
+}
+
+main #Categories a {
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+}
+
+main #Categories .subnav {
+    display: none;
+    margin: 0px 10px;
+}
+
+main #Categories .subnav li {
+    font-size: larger;
+    list-style-type: none;
+    color:brown;
+}
+
+main #Categories .subnav li:hover {
+    cursor: pointer;
+    color: #333
+}
+
+/* end categories */
+
+/* begin footer */
+.custom-footer{
+    margin: 30px  0 0 0 !important;
+    padding: 8px 0;
+    z-index: 1;
+}
+
+.custom-footer .container p {
+    font-size: 18px;
+    margin: 8px !important;
+}
+
+.custom-footer, .custom-footer .container{
+    background-color: #cc9966;
+    color: #000;
+}
+
+/* end footer */

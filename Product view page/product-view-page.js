@@ -16,3 +16,19 @@ function showSlides(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const expandableElements = document.querySelectorAll(".product-description-detail");
+  
+  expandableElements.forEach(function (element) {
+    const toggleIcon = document.createElement("button");
+    toggleIcon.className = "ti-angle-down";
+    toggleIcon.setAttribute("style", "position: absolute;left: 50%;bottom: 0;z-index: 1");
+    toggleIcon.addEventListener("click", function () {
+      element.classList.toggle("expanded");
+    });
+    element.appendChild(toggleIcon);
+  });
+});
+
+

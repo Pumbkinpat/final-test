@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Chunkfive;
+    font-family: Arial, sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(Chunkfive.ttf);
+}
+
+/* begin header */
+.main header {
+    height: 200px !important;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #fff;
+}
+
+/* begin navbar */
+.main header #header-nav {
+    height: 30% !important;
+    margin: 0 !important;
+
+}
+
+header .navbar#color-for-nav{
+    height: 60px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+header #color-for-nav li {
+    margin-bottom: 0px;
+    position: relative;
+}
+
+header #color-for-nav  a,header #color-for-nav a.dropdown-toggle {
+    float: left;
+    display: block;
+    color: #cc9966;
+    text-align: center !important;
+    line-height: 57px;
+    text-decoration: none;
+    padding: 0px 16px
+}
+
+header #color-for-nav .navbar-nav > li > a:hover,
+header #color-for-nav .navbar-nav li .dropdown-menu li > a:hover {
+    color: #ea9138;
+    text-decoration: none;
+    border-bottom: 3px solid #dd760e;
+} 
+
+header #color-for-nav .navbar-nav .dropdown-menu a {
+    width: 100%;
+}
+
+header #color-for-nav .dropdown-menu {
+    padding: 0;
+}
+
+/* end navbar */
+
+/* begin search bar */
+
+header .search-bar{
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+header .search-bar input{
+    float: right;
+    border: none;
+    text-align: left;
+    font-size: 17px;
+    height: 100%;
+    padding-left:8px ;
+    border-radius: 10px;
+    margin: 6px 0;
+}
+
+header .search-bar input:focus{
+    outline: none;
+}
+
+header .search-bar .search-btn{
+    float: left;
+    padding: 6px 10px;
+    border-radius: 10px;
+    height: 32px;
+}
+
+header .search-bar .search-btn:hover {
+    cursor: pointer;
+}
+
+header .search-bar i{
+    font-size: 20px;
+}
+
+/* end search bar */
+
+/* begin breakcrumbs */
+
+header #breakcrumbs {
+    height: 70%;
+    background-color: #cc9966;
+    position: relative;
+}
+
+header #breakcrumbs h1 {
+    color: #fff;
+    margin: 0;
+    line-height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* end breakcrumbs */
+/* end header */
+
+.main main{
+    margin-top: 210px;
+    flex: 1;
+}
+
+/* begin login page */
+
+main .login-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+main .custom-container {
+    text-align: center;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 50px;
+}
+
+main .form-group {
+    margin-bottom: 10px;
+}
+
+main #form-group label {
+    font-weight: bold;
+}
+
+main #form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-indent: 4px;
+}
+
+main #signupForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+/* end login page */
+
+/* begin footer */
+.custom-footer{
+    margin: 30px  0 0 0 !important;
+    padding: 8px 0;
+    z-index: 1;
+}
+
+.custom-footer .container p {
+    font-size: 18px;
+    margin: 8px !important;
+}
+
+.custom-footer, .custom-footer .container{
+    background-color: #cc9966;
+    color: #000;
+}
+
+
+/* doi mau searchbar bo vien input, chinh nav bar */
+
+/* end footer */
+
